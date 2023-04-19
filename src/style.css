@@ -2,23 +2,30 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 50px;
-}
+html {
+  position: relative;
 
-.section {
-  height: 500px;
+  height: 300vh;
   padding: 50px;
-  border: 3px solid black;
+  margin: 5px;
+  border: 3px solid green;
 }
 
-.article {
-  height: 300px;
+.rule {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+body {
   border: 3px solid black;
+
+  margin: 50px;
+  height: 100vh;
 }
 
 .square {
+  background-color: green;
   width: 100px;
   height: 100px;
-  background-color: green;
 }
